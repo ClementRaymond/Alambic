@@ -3,7 +3,14 @@
  * Enqueue style
  */
 function my_style() {
-    $file = PRODUCTION ? 'app.min.css' : 'app.css';
-    wp_enqueue_style( 'style-main', CSS_URL . '/' . $file );
+    wp_enqueue_style( 'style-main', CSS_URL . '/' . 'app.css' );
 }
 add_action( 'wp_enqueue_scripts',  'my_style' );
+
+/**
+ * Register all the menu
+ */
+register_nav_menus( array(
+    'header' => __( 'Header main menu'),
+    'footer' => __('Footer menu')
+) );

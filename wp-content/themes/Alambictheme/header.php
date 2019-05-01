@@ -5,6 +5,7 @@
 
         <!-- Appel du fichier style.css de notre thème -->
         <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
+        <link href="https://fonts.googleapis.com/css?family=Barlow" rel="stylesheet">
 
         <!--
             Tout le contenu de la partie head de mon site
@@ -15,5 +16,5 @@
     </head>
     <body <?php body_class(); ?>>
         <header id="header">
-        <!-- Tout le contenu de l entête de mon site -->
+           <?php get_template_part( 'templates/header/header', 'main');  ?>
         </header>

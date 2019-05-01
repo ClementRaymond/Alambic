@@ -1,0 +1,30 @@
+.header{
+   background-color: $main-color;
+   h1{
+      height: 75px;
+      display: flex;
+      align-items: center;
+      margin: 0;
+   }
+   &__container{
+      height: 75px;
+      display: flex;
+      align-items: center;
+      &__menu{
+         width: 100%;
+         display: flex;
+         justify-content: space-around;
+         margin: 0;
+         padding:0;
+         list-style-type: none;
+         li{
+            a{
+               text-decoration: none;
+               font-weight: $main-font;
+               text-transform: uppercase;
+               color: $black;
+            }
+         }
+      }
+   }
+}
