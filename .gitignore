@@ -1,0 +1,18 @@
+# Tous les fichiers .log
+*.log
+
+gulpfile.js
+
+/.htaccess
+
+.DS_Store
+
+.env
+.secret
+
+/node_modules
+/node_modules/**
+
+
+/dist/styles/**
+/dist/scripts/**
