@@ -1,13 +1,7 @@
 .header{
-   background-color: $main-color;
-   h1{
-      height: 75px;
-      display: flex;
-      align-items: center;
-      margin: 0;
-   }
+   background-color: $golden;
    &__container{
-      height: 75px;
+      height: 120px;
       display: flex;
       align-items: center;
       &__menu{
@@ -20,9 +14,10 @@
          li{
             a{
                text-decoration: none;
-               font-weight: $main-font;
+               font-weight: $second-font;
                text-transform: uppercase;
-               color: $black;
+               color: $brown;
+               font-weight: $font-bold;
             }
          }
       }

@@ -438,7 +438,7 @@ body {
   margin: 0;
   padding: 0;
   background: #ffffff;
-  font-family: "Barlow", Arial, "Helvetica Neue", Helvetica, Roboto, sans-serif;
+  font-family: "Helvetica Neue", Helvetica;
   font-weight: 400;
   line-height: 1.5;
   color: #000000;
@@ -1307,7 +1307,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Barlow", Arial, "Helvetica Neue", Helvetica, Roboto, sans-serif;
+  font-family: "Helvetica Neue", Helvetica;
   font-style: normal;
   font-weight: 400;
   color: inherit;
@@ -2431,14 +2431,9 @@ pre:focus {
   outline: none; }
 
 .header {
-  background-color: #01D758; }
-  .header h1 {
-    height: 75px;
-    display: flex;
-    align-items: center;
-    margin: 0; }
+  background-color: #DAA520; }
   .header__container {
-    height: 75px;
+    height: 120px;
     display: flex;
     align-items: center; }
     .header__container__menu {
@@ -2450,6 +2445,7 @@ pre:focus {
       list-style-type: none; }
       .header__container__menu li a {
         text-decoration: none;
-        font-weight: "Barlow", Arial, "Helvetica Neue", Helvetica, Roboto, sans-serif;
+        font-weight: "Raleway", sans-serif;
         text-transform: uppercase;
-        color: #000000; }
+        color: #5B3C11;
+        font-weight: 700; }
