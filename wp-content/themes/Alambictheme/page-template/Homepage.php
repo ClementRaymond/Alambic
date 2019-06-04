@@ -4,13 +4,8 @@
  * Template Name: Page HomePage
  *
  **/
-get_header(); ?>
+get_header();
 
-<div class="row expanded">
-   <div class="home">
-      <div class="home__slider">
-      </div>
-   </div>
-</div>
+get_template_part('templates/homepage/homepage', 'main');
 
-<?php get_footer(); ?>
+get_footer();

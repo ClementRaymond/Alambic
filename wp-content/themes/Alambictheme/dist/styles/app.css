@@ -2449,3 +2449,10 @@ pre:focus {
         text-transform: uppercase;
         color: #5B3C11;
         font-weight: 700; }
+
+.homepage-presentation {
+  margin-top: 50px; }
+  .homepage-presentation p {
+    font-size: 16px;
+    font-size: 1em;
+    font-family: "Raleway", sans-serif; }
